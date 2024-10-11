@@ -99,7 +99,7 @@ div a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 120vh;
+        height: 100vh;
         background-image: linear-gradient(to bottom right, #030C26 0%, #646A8C 40%, #729DF2 60%, #99B6F2 100%);
         background-size: 200% 200%;
         animation: float 4s linear infinite alternate;
