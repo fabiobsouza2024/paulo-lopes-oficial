@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4c5b77;
+    
+}
+
+div#conteiner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div#filho {
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
