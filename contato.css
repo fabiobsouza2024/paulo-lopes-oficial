@@ -4,22 +4,121 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
-    background-color: #4c5b77;
-    
-}
-
-div#conteiner {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 10px;
+    height: 100vh;
+    background-color: #729DF2;
 }
 
-div#filho {
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: #030C26;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+section h2 {
+    color: white;
+    font-size: 2.5em;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+form input:focus {
+    border-radius: 7px;
+}
+form textarea {
+    padding: 15px;
+    height: 150px;
+    outline: none;
+    border: 0px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+
+form textarea:focus {
+    border-radius: 7px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+
+form button:hover {
     background-color: white;
-    justify-content: space-between;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Pagina "obirgado */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #729DF2;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.603);
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #030C26;
+    color: white;
+    text-decoration: none;
     padding: 10px;
-   
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
 }

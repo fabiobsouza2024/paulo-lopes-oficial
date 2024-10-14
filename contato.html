@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="contato.css">
 </head>
 <body>
-    <div id="conteiner">
-        <div id="filho">
-            <h1>CONTATO</h1>
-            <input type="text" name="cxmsg" id="cxmsg">
-            <label for="cxmsg"></label>
-            <button type="submit">Enviar</button>
-        </div>
-    </div>
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label for="msg">Mensagem</label>
+            <textarea name="menssagem" id="menssagem" placeholder="Digite sua menssagem"></textarea>
+            <button type="submit" aria-required="">Enviar</button>
+            
+            <input type="hidden" name="accessKey" value="ea923ff7-c055-4883-a09e-385ac70d2861">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+    </section>
 </body>
 </html>
